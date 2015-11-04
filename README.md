@@ -1,7 +1,7 @@
 # Yoieh-ShellTheme
 A gnome user theme
 
-This is a gnome-shell theme you need to have this installd:
+This is a gnome-shell theme you need to have this installed:
 
 1. Gnome Shell
   ```
