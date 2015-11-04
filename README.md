@@ -12,7 +12,7 @@ This is a gnome-shell theme you need to have this installd:
   ```
   # apt-get install gnome-tweak-tool
   ```
-3. User theams extension to gnome install from:
+3. User themes extension to gnome install from:
 
   https://extensions.gnome.org/extension/19/user-themes/
 
