@@ -1,0 +1,177 @@
+/*
+330033	inactiv
+400040 64,0,64 active
+6a306a	hover
+643064 100,48,100,
+
+005f48
+00FF60 ljus gron
+689c38
+
+282828
+*/
+
+
+@import url("/usr/share/gnome-shell/theme/gnome-shell.css");
+
+/* Slider */
+
+.slider {
+	-slider-background-color: #400040;
+    -slider-border-color: #400040;
+    -slider-active-background-color: #00FF60;
+    -slider-active-border-color: #00FF60;
+}
+
+/* LookingGlass */
+#LookingGlassDialog {
+	background-color: #400040;
+	border: none;
+}
+
+/* Message Tray */
+#message-tray {
+	background: #400040;
+}
+
+#notification{
+	background: #400040;
+}
+
+/* PopupMenu */
+
+.popup-menu-boxpointer,
+.candidate-popup-boxpointer {
+    -arrow-border-radius: 8px;
+    /*-arrow-background-color: rgba(64,0,64,0.9);*/
+    -arrow-background-color: #400040;
+    /*-arrow-border-color: #400040;*/
+    -arrow-border-width: 0;
+}
+
+.popup-menu {
+  min-width: 400px;
+}
+
+.popup-menu-item:active {
+  background-color: #6a306a;
+}
+
+.popup-sub-menu {
+    background-gradient-start: #400040;
+    background-gradient-end: #400040;
+    background-gradient-direction: vertical;
+    background-color: #400040;
+    box-shadow: inset 0px 2px 4px rgba(64,0,64,0.9);
+}
+
+.popup-sub-menu StScrollBar StBin#vhandle {
+    background-color: #400040;
+}
+
+.popup-submenu-menu-item:open {
+    background-color: #330033;
+}
+
+.popup-separator-menu-item {
+    -gradient-start: rgba(64,0,64,0.0);
+    -gradient-end: rgba(64,0,64,0.3);
+}
+
+/* OSD */
+osd-window .level {
+	background-color: #400040;
+}
+
+/* App Switcher */
+.switcher-list {
+	background-color: #400040;
+	border: 0px;
+}
+
+.thumbnail-scroll-gradient-left {
+	background-color: #400040;
+}
+
+.thumbnail-scroll-gradient-right {
+	background-color: #400040;
+}
+
+/* Panel */
+
+#panel {
+	color: #ffffff;
+	background-color: #330033;
+}
+
+.system-menu-action {
+	border: none;
+	padding: 14px;
+}
+
+.system-menu-action:hover,
+.system-menu-action:focus {
+	background-color: #6a306a;
+}
+
+/* Overview */
+
+#overview {
+    background-color: #330033;
+}
+
+.workspace-thumbnails {
+	background-color: #400040;
+	border: 0px;
+}
+
+.workspace-thumbnails:rtl {
+	border: 0px;
+}
+.workspace-thumbnail-indicator{
+	/*border: 0px;*/
+}
+
+/* Dash */
+
+#dash {
+	background-color: #400040;
+	border: 0px;
+
+}
+
+/* Workspace Switcher */
+.workspace-switcher-container {
+	/*background: #400040;*/
+	background-color: #400040;
+	border: 0px;
+}
+.workspace-switcher {
+	/*background: #400040;*/
+	background-color: #400040;
+	border: 0px;
+}
+
+.ws-switcher-active-up {
+	background-color: #6a306a;
+	border: 0px;
+}
+
+.ws-switcher-active-down {
+	background-color: #6a306a;
+	border: 0px;
+}
+
+.ws-switcher-box {
+	background-color: #400040;
+	border: 0px;
+}
+
+/* Modal Dialogs */
+
+/* Dialog Subject Text Style */
+
+.modal-dialog {
+	background-color: #400040;
+	border: 0px;
+}
